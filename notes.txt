@@ -1,0 +1,68 @@
+HTML - is  a tool we use to create websites.
+HTML - giving instructions to a computer.
+
+<button></button>
+<p></p>
+these are HTML elements.
+Element is a generic term that we used to describe anything that we can display on web page.
+
+Syntax - is a rule for writing code.
+
+HTML syntax rules-
+<button> - html tag - tells computer what we trying to create.
+button -  tag name(what kind of element we are trying to create)
+
+every element consists with 2 tags. opening tag <button>  and closing tag </button>.
+
+<a href="https://www.youtube.com"></a>
+
+https://www.youtube.com is a html attribute. it modifies how an element behaves.
+
+href - attribute name
+inside it has the value.
+
+target="_blank" attribute defines
+
+extra spaces and extra new lines are ignored in html.
+
+
+---VS code hacks---
+if you want to change the indent view, click on the spaces tab below the vs code and change the view. by default it is 4.
+
+CSS - is used to change the appearance of HTML elements.
+
+CSS Syntax rules-
+
+<style>
+    button{
+        background-color: red;
+    }
+</style>
+
+
+button{ ---- css selector. (which element we are targeting.)
+
+background-color:    css property
+red;     css value
+
+
+.subscribe-button:hover {
+        background-color: green;
+    }
+
+:hover ---> is considered as pseudo class - (add styles in a certain situation)
+
+transition: opacity 0.15s;
+(normally we add 0.15s transiton - transition means how smoothly opacity changes)
+
+
+
+
+
+
+
+
+
+
+
+
