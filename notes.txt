@@ -56,9 +56,27 @@ transition: opacity 0.15s;
 (normally we add 0.15s transiton - transition means how smoothly opacity changes)
 
 
+CSS box model ----
+ using padding-top,bottom,left,right is an alternative method for adding width and height for a button or other element.
+
+by default buttons are aligns based on the text inside the button on the browser. if buttons are not aligns in same line,
 
 
 
+Text styles ----
+
+html entity middle dot code ---- 
+	&#183;
+
+html entity check mark ----
+	&#10003;
+
+paragraph tag (<p></p>) by default comes with a margin at the top and bottom.
+
+CSS Specificity -----
+
+css styles have priority order.
+the selector that's more specific has higher priority
 
 
 
