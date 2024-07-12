@@ -76,7 +76,25 @@ paragraph tag (<p></p>) by default comes with a margin at the top and bottom.
 CSS Specificity -----
 
 css styles have priority order.
-the selector that's more specific has higher priority
+the selector that's more specific has higher priority.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
