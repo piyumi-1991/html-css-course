@@ -78,9 +78,48 @@ CSS Specificity -----
 css styles have priority order.
 the selector that's more specific has higher priority.
 
+Text element -
+
+element that is inside the text.
+(style specific part of a text)
+Ex: <span>, <u>
+we can add classes and style them for spans also.
+
+if we want to add white space between texts, we can use margin-left/right element.
 
 
+<!DOCTYPE html>
+this tells browser to use modern version of the html.
 
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body></body>
+</html>
+This is the proper structure of any html file.
+
+<html>
+    <head></head>
+nested elements - elements inside other elements.
+
+every web page has only one <html> element.
+
+all the visible elements on a web page should go inside <body></body> element.
+other not visible elements should go inside <head></head> element.
+
+<link> element does not require a closing tag. these kind of elements are called void elements.
+
+CSS display property---
+
+in html, there are 3 types of elements.
+1. block element- takes up the entire line (paragraph by default a block element  )
+2. Inline block element - only takes up as much space as needed. it doesn't take entire line.
+ex. for inline block elements-  image element, text element. those don't take entire line. it takes only needed space.
+3. Inline element (basically just text elements) - appear within a line of text.
+ex: <strong></strong>
+
+<div> element ---
+div means divison. it's just a box. div is by default a block element.
 
 
 
