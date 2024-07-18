@@ -3,9 +3,14 @@
 
 <head>
     <style>
+        div{
+            text-align: center;
+        }
+
         .google-search-box {
             border: none;
             margin-top: 20px;
+            margin-bottom: 30px;
             margin-left: 20px;
             font-size: 15px;
             border-radius: 20px;
@@ -17,18 +22,47 @@
             box-shadow: 0 1px 5px rgb(229, 229, 229);
         }
 
-        .google-logo{
-            display: block;
+        .google-logo {
             width: 200px;
-            margin-left: 150px;
+            margin-top: 10px;
             margin-bottom: 10px;
+        }
+
+        .google-btn {
+            background-color: rgb(245, 245, 245);
+            border: none;
+            font-size: 15px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-right: 10px;
+        }
+
+        .search-btn {
+            background-color: rgb(245, 245, 245);
+            border: none;
+            font-size: 15px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-right: 10px;
         }
     </style>
 </head>
 
 <body>
-    <img class="google-logo" src="images/google.png" />
-    <input class="google-search-box" type="text" placeholder="Search Google or type a URL">
+    <div>
+        <img class="google-logo" src="images/google.png" />
+    </div>
+    <div>
+        <input class="google-search-box" type="text" placeholder="Search Google or type a URL">
+    </div>
+    <div>
+        <button class="google-btn">Google Search</button>
+        <button class="search-btn">I'm Feeling Lucky</button>
+    </div>
 </body>
 
 </html>

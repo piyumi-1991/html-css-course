@@ -121,6 +121,15 @@ ex: <strong></strong>
 <div> element ---
 div means divison. it's just a box. div is by default a block element.
 
+what's special about div? div can contain other elements inside. ex: <p>, images, inputs etc.
+div's are containers. containers allow group elements together.
+<div> = containers
+
+Nested Layouts -
+	laypouts inside layouts
+
+CSS grid ----
+
 
 
 
