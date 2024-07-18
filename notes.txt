@@ -130,9 +130,18 @@ Nested Layouts -
 
 CSS grid ----
 
+Grid is a layout that has columns and rows.
+grids maintain alignments much better.
 
+fr =  free space - it takes remaining space 
 
-
+style="
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 40px;
+            "
 
 
 
