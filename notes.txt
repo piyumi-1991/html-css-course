@@ -143,6 +143,11 @@ style="
             row-gap: 40px;
             "
 
+CSS flexbox--
+another way to create layouts. similar to css grid. 
+
+flex box means flexible boxes.
+
 
 
 
