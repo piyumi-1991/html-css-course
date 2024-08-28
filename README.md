@@ -1,2 +1,2 @@
 # html-css-course
-html-css practice
+html-css practice by making the YouTube clone.
