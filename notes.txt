@@ -171,7 +171,31 @@ absolute = placed on the page.
 
 when we scroll browser window is not moving. only the page is moving.
 
+z-index ----
+this determines which element appears in the front, and which element appears in the back.
 
+
+when position: absolute; is inside the position: relative; , the absolute element is inside that relative div. not in the page.
+
+
+to make the website responsive that works on all the devices, we can use media queries.
+
+css inheritance-
+
+parent class styles inherit to the child elements. but not all the elements effect with the css inheritance.
+
+certain properties will passdown from the outer element to the inner elements.
+
+css specifity -
+css styles target some specific styles for some elements.
+
+semantic elements -
+<header></header>
+<nav></nav>
+
+comments
+
+comments are the pieces of code that computer ignores and we can read to remind some information etc.
 
 
 
